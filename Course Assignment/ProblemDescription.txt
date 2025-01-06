@@ -1,0 +1,13 @@
+Creating and remembering profiles for accounts can be very difficult especially when you have a poor memory. with this in mind, I've decided
+to create a program that allows you to save your data for your different accounts securely on your device where you can access them. This program
+should be able to allow a user to create a profile where they can add details to it such as username, email, and password. Since creating good,
+strong passwords can be very difficult and can require a lot of brain power, my program should be able to generate passwords of varying complexities.
+
+My program will have 3 parts. A set of functions that can generate passwords that are simple, medium, and complex so the user can have a password
+best suited for them. Of course, the user can also use a pre-existing password if they wish. These passwords will be generated using words found in
+a pre-existing file and data in a set of predefined lists. There will be a set of functions that will also be used for allowing the user to name 
+the profile and add relevant details such as usernames and emails. Since not all accounts require a username or email, the program will net *null*
+as the username or email if thy do not exist. Lastly, the program should hav some functions for writing thedata into a csv file. These functions 
+should print the data in the csv file, delete a profile, or create a profile in the csv file. 
+
+
